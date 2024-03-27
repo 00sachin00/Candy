@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gabarito&family=Inclusive+Sans&family=Montserrat&family=Poppins&family=Roboto&family=Space+Grotesk&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(4 3 3/60%),
+    rgb(0 0 0/33%)),url(img/pic.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 5%;
+}
+.navbar li{
+    display: inline;
+    padding: 0 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 23px;
+    padding: 4px;
+}
+.navbar li a:hover{
+    color: #C19A6B;
+}
+
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    height: 60vh;
+}
+.para{
+    color: #9c8c7a;
+    letter-spacing: 2px;
+}
+.heading{
+    color: #ff6b00;
+    font-size: 75px;
+    font-family: 'Courgette', cursive;
+}
+.mid-para{
+    font-size: 11px;
+    color: #9c8c7a;
+    padding: 2% 0;
+}
+
+/* ________sec_________ */
+.sec{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+.img{
+    width: 40%;
+}
+.row img{
+    width: 80%;
+}
+.boxes{
+    width: 35%;
+    align-self: center;
+    text-align: left;
+}
+.boxes h1{
+    color: rgb(57,36,36);
+    font-size: 30px;
+}
+.sec .heading{
+    color: rgb(92,44,10);
+    font-size: 50px;
+}
+/* ________-types_______ */
+.box{
+    flex-basis: 60%;
+    margin: 0 30px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+.box h2{
+    background-color: #3d1f0a;
+    color: white;
+    padding: 12px 0px;
+}
+/* ___--about________ */
+.about{
+    background: url(img/pic1.jpg) no-repeat center center/cover;
+    height: 45vh;
+    margin-bottom: 5%;
+    position: relative;
+}
+.about-box{
+    position: absolute;
+    top: 56%;
+    width: 50%;
+    left: 25%;
+    padding: 12px;
+    background-color: whitesmoke;
+}
+/* _______nutritions_______ */
+
+.c-box{
+    background-color: #543217;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: left;
+}
+.c-box p{
+    padding: 19px 12px;
+}
+.c-box h3{
+    color: #3d1f0a;
+    background-color: white;
+    padding: 6px;
+    font-size: 20px;
+}
+/* _______contact______ */
+.contact-box {
+    background: url('img/pic2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin-top: 10%;
+    position: relative;
+}
+
+.Con-box {
+    background-color: #3d1f0a;
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    top: 25%; /* Adjusted top position */
+    left: 25%; /* Adjusted left position */
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Con-box .heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8b572a; /* Chocolate button background */
+    color: #fff; /* Light text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #543217; /* Dark chocolate hover color */
+}
+.footer-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background-color: #ffffff; /* Background color for the circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.footer-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.company-info p {
+    color: white; /* Text color for company info */
+}
+.spacer {
+    margin-bottom: 20px; 
+}
+.copyright{
+    color: #ff6b00;
+}
